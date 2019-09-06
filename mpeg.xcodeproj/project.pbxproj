@@ -14,6 +14,10 @@
 		01D24F9B2322FCD800BD31E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D24F9A2322FCD800BD31E4 /* Preview Assets.xcassets */; };
 		01D24F9E2322FCD800BD31E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D24F9C2322FCD800BD31E4 /* LaunchScreen.storyboard */; };
 		01D24FA92322FCD800BD31E4 /* mpegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FA82322FCD800BD31E4 /* mpegTests.swift */; };
+		01D24FB42322FDC600BD31E4 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FB32322FDC600BD31E4 /* Buffer.swift */; };
+		01D24FB62322FDD300BD31E4 /* Demuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FB52322FDD300BD31E4 /* Demuxer.swift */; };
+		01D24FB82322FDE300BD31E4 /* VideoDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */; };
+		01D24FBB2322FDF300BD31E4 /* AudioDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FBA2322FDF300BD31E4 /* AudioDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		01D24FA42322FCD800BD31E4 /* mpegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mpegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D24FA82322FCD800BD31E4 /* mpegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mpegTests.swift; sourceTree = "<group>"; };
 		01D24FAA2322FCD800BD31E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D24FB32322FDC600BD31E4 /* Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buffer.swift; sourceTree = "<group>"; };
+		01D24FB52322FDD300BD31E4 /* Demuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demuxer.swift; sourceTree = "<group>"; };
+		01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDecoder.swift; sourceTree = "<group>"; };
+		01D24FBA2322FDF300BD31E4 /* AudioDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 				01D24F9C2322FCD800BD31E4 /* LaunchScreen.storyboard */,
 				01D24F9F2322FCD800BD31E4 /* Info.plist */,
 				01D24F992322FCD800BD31E4 /* Preview Content */,
+				01D24FB32322FDC600BD31E4 /* Buffer.swift */,
+				01D24FB52322FDD300BD31E4 /* Demuxer.swift */,
+				01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */,
+				01D24FBA2322FDF300BD31E4 /* AudioDecoder.swift */,
 			);
 			path = mpeg;
 			sourceTree = "<group>";
@@ -209,7 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				01D24F922322FCD600BD31E4 /* AppDelegate.swift in Sources */,
+				01D24FB42322FDC600BD31E4 /* Buffer.swift in Sources */,
+				01D24FB62322FDD300BD31E4 /* Demuxer.swift in Sources */,
 				01D24F942322FCD600BD31E4 /* SceneDelegate.swift in Sources */,
+				01D24FBB2322FDF300BD31E4 /* AudioDecoder.swift in Sources */,
+				01D24FB82322FDE300BD31E4 /* VideoDecoder.swift in Sources */,
 				01D24F962322FCD600BD31E4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
