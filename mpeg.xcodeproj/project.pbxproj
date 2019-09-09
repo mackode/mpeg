@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01734A742326E73F00ADFF5F /* Packet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01734A732326E73F00ADFF5F /* Packet.swift */; };
 		01D24F922322FCD600BD31E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24F912322FCD600BD31E4 /* AppDelegate.swift */; };
 		01D24F942322FCD600BD31E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24F932322FCD600BD31E4 /* SceneDelegate.swift */; };
 		01D24F962322FCD600BD31E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24F952322FCD600BD31E4 /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01734A732326E73F00ADFF5F /* Packet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packet.swift; sourceTree = "<group>"; };
 		01D24F8E2322FCD600BD31E4 /* mpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D24F912322FCD600BD31E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01D24F932322FCD600BD31E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				01D24F9C2322FCD800BD31E4 /* LaunchScreen.storyboard */,
 				01D24F9F2322FCD800BD31E4 /* Info.plist */,
 				01D24F992322FCD800BD31E4 /* Preview Content */,
+				01734A732326E73F00ADFF5F /* Packet.swift */,
 				01D24FB32322FDC600BD31E4 /* Buffer.swift */,
 				01D24FB52322FDD300BD31E4 /* Demuxer.swift */,
 				01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */,
@@ -227,6 +230,7 @@
 				01D24FBB2322FDF300BD31E4 /* AudioDecoder.swift in Sources */,
 				01D24FB82322FDE300BD31E4 /* VideoDecoder.swift in Sources */,
 				01D24F962322FCD600BD31E4 /* ContentView.swift in Sources */,
+				01734A742326E73F00ADFF5F /* Packet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
