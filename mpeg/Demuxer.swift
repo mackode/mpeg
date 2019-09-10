@@ -200,4 +200,11 @@ class Demuxer {
         return Double(clock) / 90000.0
     }
 
+    /**
+     
+     */
+    func rewind() {
+        self.buffer.rewind()
+    }
+
 }
