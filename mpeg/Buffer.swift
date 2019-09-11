@@ -11,7 +11,7 @@ import Foundation
 class Buffer {
 
     var bytes: [UInt8] = []
-    var bitIndex: UInt32 = 0
+    var bitIndex: UInt8 = 0
     var capacity: UInt32 = 0
     var length: UInt32 = 0
 
