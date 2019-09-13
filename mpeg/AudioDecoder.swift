@@ -264,3 +264,38 @@ class AudioConsts {
     ]
 
 }
+
+/**
+
+ */
+struct Samples {
+    var time: Double
+    var count: UInt
+    var channels: [[Float]]
+}
+
+/**
+
+ */
+class VideoDecoder {
+    var time: Double
+    var samplesDecoded: Int
+    var samplerateIndex: Int
+    var bitrateIndex: Int
+    var version: Int
+    var layer: Int
+    var mode: Int
+    var bound: Int
+    var vPos: Int
+    var nextFrameDataSize: Int
+
+    var buffer: Buffer
+    var allocation: [[QuantizerSpec]]
+    var scaleFactorInfo: [[UInt8]]
+    var scaleFactor: [[[Int]]]
+    var sample: [[[Int]]]
+    var samples: Samples
+    var D: [Float]
+    var V: [Float]
+    var U: [Float]
+}
