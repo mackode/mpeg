@@ -278,24 +278,27 @@ struct Samples {
 
  */
 class VideoDecoder {
-    var time: Double
-    var samplesDecoded: Int
-    var samplerateIndex: Int
-    var bitrateIndex: Int
-    var version: Int
-    var layer: Int
-    var mode: Int
-    var bound: Int
-    var vPos: Int
-    var nextFrameDataSize: Int
+    var time: Double = 0.0
+    var samplesDecoded: Int = 0
+    var samplerateIndex: Int = 0
+    var bitrateIndex: Int = 0
+    var version: Int = 0
+    var layer: Int = 0
+    var mode: Int = 0
+    var bound: Int = 0
+    var vPos: Int = 0
+    var nextFrameDataSize: Int = 0
 
-    var buffer: Buffer
-    var allocation: [[QuantizerSpec]]
-    var scaleFactorInfo: [[UInt8]]
-    var scaleFactor: [[[Int]]]
-    var sample: [[[Int]]]
-    var samples: Samples
-    var D: [Float]
-    var V: [Float]
-    var U: [Float]
+    var buffer: Buffer?
+    var allocation: [[QuantizerSpec]]?
+    var scaleFactorInfo: [[UInt8]]?
+    var scaleFactor: [[[Int]]]?
+    var sample: [[[Int]]]?
+    var samples: Samples?
+    var D: [Float]?
+    var V: [Float]?
+    var U: [Float]?
+
+    init() {
+    }
 }

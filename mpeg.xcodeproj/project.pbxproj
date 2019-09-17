@@ -19,6 +19,8 @@
 		01D24FB62322FDD300BD31E4 /* Demuxer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FB52322FDD300BD31E4 /* Demuxer.swift */; };
 		01D24FB82322FDE300BD31E4 /* VideoDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */; };
 		01D24FBB2322FDF300BD31E4 /* AudioDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D24FBA2322FDF300BD31E4 /* AudioDecoder.swift */; };
+		01E4D135232C23D4006F07FD /* bjork-all-is-full-of-love.mpg in Resources */ = {isa = PBXBuildFile; fileRef = 01E4D134232C23D4006F07FD /* bjork-all-is-full-of-love.mpg */; };
+		01E55BA1232D833200C179D9 /* MediaStreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E55BA0232D833200C179D9 /* MediaStreamReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		01D24FB52322FDD300BD31E4 /* Demuxer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demuxer.swift; sourceTree = "<group>"; };
 		01D24FB72322FDE300BD31E4 /* VideoDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDecoder.swift; sourceTree = "<group>"; };
 		01D24FBA2322FDF300BD31E4 /* AudioDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDecoder.swift; sourceTree = "<group>"; };
+		01E4D134232C23D4006F07FD /* bjork-all-is-full-of-love.mpg */ = {isa = PBXFileReference; lastKnownFileType = video.mpeg; path = "bjork-all-is-full-of-love.mpg"; sourceTree = "<group>"; };
+		01E55BA0232D833200C179D9 /* MediaStreamReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStreamReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +93,10 @@
 		01D24F902322FCD600BD31E4 /* mpeg */ = {
 			isa = PBXGroup;
 			children = (
+				01E4D134232C23D4006F07FD /* bjork-all-is-full-of-love.mpg */,
 				01D24F912322FCD600BD31E4 /* AppDelegate.swift */,
 				01D24F932322FCD600BD31E4 /* SceneDelegate.swift */,
+				01E55BA0232D833200C179D9 /* MediaStreamReader.swift */,
 				01D24F952322FCD600BD31E4 /* ContentView.swift */,
 				01D24F972322FCD800BD31E4 /* Assets.xcassets */,
 				01D24F9C2322FCD800BD31E4 /* LaunchScreen.storyboard */,
@@ -206,6 +212,7 @@
 				01D24F9E2322FCD800BD31E4 /* LaunchScreen.storyboard in Resources */,
 				01D24F9B2322FCD800BD31E4 /* Preview Assets.xcassets in Resources */,
 				01D24F982322FCD800BD31E4 /* Assets.xcassets in Resources */,
+				01E4D135232C23D4006F07FD /* bjork-all-is-full-of-love.mpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +233,7 @@
 				01D24F922322FCD600BD31E4 /* AppDelegate.swift in Sources */,
 				01D24FB42322FDC600BD31E4 /* Buffer.swift in Sources */,
 				01D24FB62322FDD300BD31E4 /* Demuxer.swift in Sources */,
+				01E55BA1232D833200C179D9 /* MediaStreamReader.swift in Sources */,
 				01D24F942322FCD600BD31E4 /* SceneDelegate.swift in Sources */,
 				01D24FBB2322FDF300BD31E4 /* AudioDecoder.swift in Sources */,
 				01D24FB82322FDE300BD31E4 /* VideoDecoder.swift in Sources */,
